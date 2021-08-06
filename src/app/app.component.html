@@ -1,0 +1,13 @@
+<form #userlogin = "ngForm" (ngSubmit) = "onClickSubmit(userlogin.value)" >
+   
+   <input type = "email" name="emailid" ngModel> <div>{{invalidmailid}}</div> 
+   <br/>
+   <input type = "password" name = "passwd" ngModel><div>{{invalidpwd}}</div>
+   <br/>
+   <input type = "submit" value = "submit">
+   
+</form>
+
+My name is Sreedhar , 
+My Email id is {{ed}} , 
+My Password is {{pwd}}
